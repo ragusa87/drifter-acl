@@ -1,0 +1,15 @@
+---
+project_name: "drifteracl"
+hostname: "drifteracl.lo"
+hostnames: []
+box_ip: "10.10.10.13"
+database_name: "drifteracl"
+root_directory: "/vagrant/"
+php_version: 7.0
+php_error_reporting: "E_ALL & ~E_NOTICE"
+
+# Use a Stretch image
+box_name: "drifter/stretch64-base"
+box_url: "https://vagrantbox-public.liip.ch/drifter-stretch64-base.json"
+
+web_directory: "{{ root_directory }}web/"
